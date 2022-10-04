@@ -16,7 +16,7 @@ void randomVector(int vector[], int size)
     }
 }
 
-int main2(){
+int main(){
 
     unsigned long size = 100000000;
 
