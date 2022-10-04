@@ -109,10 +109,10 @@ int main(){
     auto stop = high_resolution_clock::now();
 
     // Calculate computing time
-    auto duration = duration_cast<milliseconds>(stop - start);
+    auto duration = duration_cast<microseconds>(stop - start);
 
     cout << "Time taken by function: "
-         << duration.count() << " milliseconds" << endl;
+         << duration.count() << " microseconds" << endl;
 
     return 0;
 }
